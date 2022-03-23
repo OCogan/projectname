@@ -1,0 +1,125 @@
+ <!Doctype html>
+ <html>
+ <head>
+  <title>Contact form </title>
+  <meta charset = "utf-8">
+  <style>
+   body{
+font-family: sans-serif;
+background-image: url(../Images/Saint_Peters.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+margin: 10Px;
+   }
+main {
+margin: 15px 200px;
+padding: 20px;
+border:  black solid 1px;
+background: white;
+min-height: 500px;
+
+
+
+}
+header p{
+font-style:italic;
+text-align: center;
+font-weight: 900;
+}
+.required{
+
+font-weight: bold;
+color:red;
+
+
+
+}
+label{
+
+float :left;
+width: 112px;
+padding-right: 10px;
+text-align: right;
+
+
+
+}
+input{
+
+margin-left: 1em;
+margin-bottom: .5em;
+width: 220px;
+
+
+
+}
+
+.reset,button{
+margin-top: .5em;
+width: 8em;
+background-color: orange;
+border: 2px solid black;
+
+}
+
+      
+  </style>
+  
+  
+ </head>
+  <body>
+<header>
+    <p> Any Queries or feedback pleae Complete and submit</p>
+  </header>
+<main>:
+  <section>
+      </section>
+    <h3>
+    Please enter the following information #
+    :(form action="http:/foo.com" method="get")
+    <form action="http:/foo.com" method ="put">   </form>
+    <label for = "first_name"> first name<span class ="required"> "</span> </label>
+<input type="text" name= "First Name" id = "First Name " autofocus = "required" ><br>
+<label for = "last_name"> last name<span class ="required"> "</span> </label>
+<input type="text" name= "Last name" id = "last_name " autofocus = "required" ><br>
+
+<label for = "email"> email<span class ="required"> "</span> </label>
+<input type="email" name= "email" id = "email " placeholder= " Oisin@gmail.com" autofocus= "required" ><br> 
+
+<label for = "gender"> gender</label> 
+
+<input type="radio" value= "male" id = "gender " autofocus = "required" >male 
+<input type="radio" value= "female" id = "gender " autofocus = "required" > female
+<input type="radio" value= "other" id = "gender " autofocus = "required" checked> Other 
+
+</section>  
+<fieldset>
+    <input type="checkbox" value= "Internet"   id = "Internet"                 name ="internet"        autofocus = "required" >Internet<br>
+    <input type="checkbox" value= "friend"     id = "heard" class = "margin1"  name = "friend"      checked> friend<br>
+    <input type="checkbox" value= "newspaper"  id = "heard" class =  "margin1" name = " newspaper"  checked>newspaper<br>
+    <input type="checkbox" value= "add"        id = "heard" class =  "margin1" name = " add"       checked> add<br> 
+
+
+
+</fieldset><br>
+<label for="message">
+</label>
+<textarea cols = "40" rows = "6" id="message" placeholder="your message must be less than 200" maxlength="200"></textarea> <br>
+<input type="submit" name= "submit" id = "submit " autofocus = "required" ><br>
+<input type="reset" name= "reset" id = "reset " autofocus = "required" ><br>
+</form>
+</main>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
