@@ -1,0 +1,161 @@
+nav {
+    background-color: orange;
+    padding: 5px;
+}
+
+nav ul {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li {
+    list-style-type: none;
+    background-color: rgb(16, 214, 75);
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li :hover {
+    background-color: #0dcf95;
+}
+
+header {
+    background-color: rgb(233, 210, 2);
+    padding: 10px;
+}
+
+footer {
+    padding: 0;
+    background-color: rgb(41, 22, 216);
+    margin: 0;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+    color: rgba(233, 193, 16, 0.521);
+}
+
+table {
+    width: 100%;
+    border: 5px solid rgba(37, 56, 230, 0.568);
+    border-collapse: collapse;
+    font-size: 20px;
+    margin: 20px;
+    padding: 2%;
+}
+
+th,tr,td,tbody {
+    border: 1px solid rgb(33, 21, 199);
+    text-align: left;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.column {
+    float: left;
+    width: 32%;
+    padding: 10px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+h1 h2 h3 {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    text-align: center;
+}
+
+section p {
+    text-align: center;
+}
+
+.sectionDisplay {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    border: 10px solid black;
+}
+
+body{
+    font-family: sans-serif;
+    background-image: url(../images/Burger\ house.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10Px;
+       }
+    main {
+    margin: 15px 200px;
+    padding: 20px;
+    border:  black solid 1px;
+    background: white;
+    min-height: 500px;
+    
+    
+    
+    }
+    header p{
+    font-style:italic;
+    text-align: center;
+    font-weight: 900;
+    }
+    .required{
+    
+    font-weight: bold;
+    color:red;
+    
+    
+    
+    }
+    label{
+    
+    float :left;
+    width: 112px;
+    padding-right: 10px;
+    text-align: right;
+    
+    
+    
+    }
+    input{
+    
+    margin-left: 1em;
+    margin-bottom: .5em;
+    width: 220px;
+    
+    
+    
+    }
+    
+    .reset,button{
+    margin-top: .5em;
+    width: 8em;
+    background-color: orange;
+    border: 2px solid black;
+    
+    }
+     form{
+     
+background-color: orange;
+border: black;
+
+
+
+     }
